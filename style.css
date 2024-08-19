@@ -1,0 +1,65 @@
+/* style.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+
+#clock {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+#day {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#time {
+    font-size: 4.5rem;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+}
+
+#year_month {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+h2, h3 {
+    margin: 0;
+}
+
+h2 {
+    line-height: 1.2;
+}
+
+@media (max-width: 600px) {
+    #clock {
+        padding: 15px 25px;
+    }
+
+    #day {
+        font-size: 2rem;
+    }
+
+    #time {
+        font-size: 3.5rem;
+    }
+
+    #year_month {
+        font-size: 1.2rem;
+    }
+}
